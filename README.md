@@ -7,6 +7,7 @@
 <img src="https://cdn.looyeagee.cn/github/yiban/platform.svg"/>
 <img src="https://cdn.looyeagee.cn/github/yiban/python.svg"/>
 </p>
+
 ## 👀简介
 
 长沙理工大学易班疫情一键上报健康打卡并自动截图，你还可以指定截图目录保存到自己的站点，这样每天访问一个网站就能获取到今天的打卡截图啦～
