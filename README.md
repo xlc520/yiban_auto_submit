@@ -7,11 +7,13 @@
 <img src="https://cdn.looyeagee.cn/github/yiban/platform.svg"/>
 <img src="https://cdn.looyeagee.cn/github/yiban/python.svg"/>
 </p>
-## 👀 简介
+## 👀简介
 
 长沙理工大学易班疫情一键上报健康打卡并自动截图，你还可以指定截图目录保存到自己的站点，这样每天访问一个网站就能获取到今天的打卡截图啦～
 
 对原理感兴趣的话，建议看看抓包过程视频：https://www.bilibili.com/video/BV1a741117hQ/
+
+博客文章地址：https://looyeagee.cn/software/yiban/
 
 ## :sparkles: 使用说明
 
