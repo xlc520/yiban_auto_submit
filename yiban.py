@@ -27,7 +27,7 @@ driver = webdriver.Chrome(executable_path=chrome_driver, chrome_options=chrome_o
 
 
 class YiBan:
-    WFId = "d336f36226e932d152ed54cc2a1baf20"  # 疫情表单：固定表单值固定 每个大学可能不一样需要自行抓包 此处为长沙理工大学
+    WFId = "ecac36c256540165ec2fd412a33f50f8"  # 疫情表单：固定表单值固定 每个大学可能不一样需要自行抓包 此处为长沙理工大学0512更新
     CSRF = "sui-bian-fang-dian-dong-xi"  # 随机值 随便填点东西
     COOKIES = {"csrf_token": CSRF}  # 固定cookie 无需更改
     HEADERS = {"Origin": "https://c.uyiban.com", "User-Agent": "yiban"}  # 固定头 无需更改
