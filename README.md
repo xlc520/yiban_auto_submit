@@ -36,10 +36,10 @@ python3 yiban.py
 
 1.`data/account.txt` 帐号密码以空格隔开，一行一个。
 
-2.`data/data.txt` 提交的json数据，一行一个，长沙理工大学的数据如下：修改部分关键的字段即可。其他大学可能需要自行抓包。编辑`XX`的为要填写的。**已于20200512更新表单。**
+2.`data/data.txt` 提交的json数据，一行一个，长沙理工大学的数据如下：修改部分关键的字段即可。其他大学可能需要自行抓包。编辑`XX`的为要填写的。**已于20200521更新表单。**
 
 ```json
-{"98ddd090dc2a7f5ac666daa41ef113f4":"XX姓名","0735cf0a0b2ad4267ea2578da39a923a":"XX班级","801a459c3503b1aebe54aef1540602ce":{"name":"地址名","location":"XX经度(小数点后6位),XX纬度(小数点后6位)","address":"XX详细地址描述"},"18ad14fa5b723f437254f4dc8ed92ffc":{"name":"地址名","location":"XX经度(小数点后6位),纬度(小数点后6位)","address":"XX详细地址描述"},"1988af9823d6a9ad01e3f673106c6d59":"XX省","62b5cbd69c8efddec63df6aa676cade2":"XX市","5ca8c285360b059616fd9b706e06303e":"XX县（区）","3cdc6f6669f7bafddbbdeaf04beca8c5":"XX体温","88e831eb1f444f6447c7022c518e7de7":"无","5e50acc9a4fd45fc578d7682ee8799a0":"无","7d4a4f933e87ad84a323b9f893c23937":"无","06e2393cb99c5324fbabd3561c32c723":"无","9352c8ff9850b800eb2fa2453b65d846":"否","eca39739507c9309e1f562b57541b3be":"否","721478664a42a8c42563476e2452ff81":"否","1f1b87c54d448f5eafc70c617f6ef357":"健康","3a0e2ada22349c8b24c1ecd5e860f8e1":"健康","e65b3d45a5a2298bac49ee67faf2e054":"否","1f9d8ca37058562e088494e7cd07b372":"否","4ac0e4c37925e2f307d4322aa02b400f":"否"}
+{"98ddd090dc2a7f5ac666daa41ef113f4":"XX姓名","801a459c3503b1aebe54aef1540602ce":{"name":"地址名","location":"XX经度(小数点后6位),XX纬度(小数点后6位)","address":"XX详细地址描述"},"18ad14fa5b723f437254f4dc8ed92ffc":{"name":"地址名","location":"XX经度(小数点后6位),纬度(小数点后6位)","address":"XX详细地址描述"},"9e479314185767740d3fffcd4c31e2cb":"XX省/XX市/XX县(区)","3cdc6f6669f7bafddbbdeaf04beca8c5":"XX体温","88e831eb1f444f6447c7022c518e7de7":"无","5e50acc9a4fd45fc578d7682ee8799a0":"无","7d4a4f933e87ad84a323b9f893c23937":"无","06e2393cb99c5324fbabd3561c32c723":"无","9352c8ff9850b800eb2fa2453b65d846":"否","eca39739507c9309e1f562b57541b3be":"否","721478664a42a8c42563476e2452ff81":"否","1f1b87c54d448f5eafc70c617f6ef357":"健康","3a0e2ada22349c8b24c1ecd5e860f8e1":"健康","e65b3d45a5a2298bac49ee67faf2e054":"否","1f9d8ca37058562e088494e7cd07b372":"否","4ac0e4c37925e2f307d4322aa02b400f":"否"}
 ```
 
 3.`yiban.py` 第30行的`WFId`，长沙理工大学无需更改，其他大学可能不一样，需要自行抓包。
