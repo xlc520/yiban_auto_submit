@@ -1,5 +1,5 @@
 <h1 align="center">
-  易班自动打卡
+  易班自动打卡(20200710更新)
   <br>
 </h1>
 <p align="center">
@@ -15,6 +15,8 @@
 对原理感兴趣的话，建议看看抓包过程视频：https://www.bilibili.com/video/BV1a741117hQ/
 
 博客文章地址：https://looyeagee.cn/software/yiban/
+
+**不小心把密码传到这儿来了，麻溜改成私有并回滚了，不知道改私有star也会消失，各位同学喜欢本作品的话点个star呗~**
 
 ## :sparkles: 使用说明
 
